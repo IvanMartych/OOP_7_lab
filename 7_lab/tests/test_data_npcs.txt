@@ -1,0 +1,5 @@
+Knight Lancelot 100 200
+Pegasus Windrunner 150 250
+Squirrel Nutty 50 75
+Knight Arthur 200 300
+Pegasus Stardust 400 450

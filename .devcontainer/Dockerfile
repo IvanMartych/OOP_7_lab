@@ -1,0 +1,12 @@
+FROM gcc:14.2.0
+
+RUN apt-get update && apt-get install -y \
+    cmake python3 python3-dev python3-pip wrk clangd\
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install numpy --break-system-packages
+
+WORKDIR /workspace
+
+# docker build -t my-gcc-workspace .
+# docker run -it my-gcc-workspace bash

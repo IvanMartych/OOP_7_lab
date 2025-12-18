@@ -1,0 +1,17 @@
+{
+    "name": "C++ labs",
+    "image": "oop_labs_image:latest",
+    // "dockerFile": "Dockerfile",
+    "context": "..",
+    "appPort": [],
+    "extensions": [
+        "ms-vscode.cpptools",
+        "vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "llvm-vs-code-extensions.vscode-clangd"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "cmake.configureOnOpen": true  
+    }
+}
