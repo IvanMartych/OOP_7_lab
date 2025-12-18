@@ -162,7 +162,6 @@ void Arena::startBattle(double range) {
     }
 }
 
-// ==================== МЕТОДЫ ДЛЯ 7-Й ЛАБЫ ====================
 
 // генерация случайных NPC
 void Arena::generateRandomNpcs(int count) {
